@@ -25,11 +25,12 @@ sudo apt install python3 python3-dev python3-pip git
 ```
 
 Install py3_sg via pip
-Note: better install in a virtual environment
+
+Note: better install in a python's virtual environment
 ```
 python3 –m venv ws_env
 source wd_env/bin/active
-sudo python3 -m pip install py3_sg
+pip install py3_sg
 ```
 
 On other Linux distributions you may need a different command.
@@ -37,7 +38,7 @@ On other Linux distributions you may need a different command.
 You *must* use sudo in this command.  Usually that's a bad idea when running pip but we need to be root to access the devices.
 Then use pip to install the source code in this repository:
 ```
-sudo pip install git+https://github.com/0-duke/wdpassport-utils
+pip install git+https://github.com/0-duke/wdpassport-utils
 ```
 
 ## Usage
