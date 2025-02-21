@@ -28,6 +28,7 @@ Install py3_sg via pip
 Note: better install in a virtual environment
 ```
 python3 –m venv ws_env
+source wd_env/bin/active
 sudo python3 -m pip install py3_sg
 ```
 
