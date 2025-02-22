@@ -28,8 +28,8 @@ Install py3_sg via pip
 
 Note: better install in a python's virtual environment
 ```
-python3 –m venv ws_env
-source wd_env/bin/active
+python3 –m venv wd_env
+source wd_env/bin/activate
 pip install py3_sg
 ```
 
